@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #262262;
+}
+
+#logo {
+    max-height: 100px;
+}
+
+.nav-link {
+    color: white !important;
+}
