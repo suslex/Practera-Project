@@ -1,0 +1,70 @@
+.navbar {
+    background-color: #262262;
+}
+
+#logo {
+    max-height: 100px;
+    margin-right: 45px;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right:50px;
+}
+
+.jumbotron {
+    padding-top: 200px;
+    padding-right: 20px;
+    max-height:400px;
+    }
+
+#motto {
+    font-style:italic;
+    font-weight:350;
+    text-shadow: 3px 3px 10px #262262 ;
+}
+
+#quote {
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+#quote_name {
+    font-size: 18px;
+    margin-top: 10px;    
+}
+
+#approach_cont {
+    max-height: 400px;
+}
+
+#approach_img, #process_img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.centerBlock {
+   margin-left:auto;
+   margin-right:auto;
+   display:block;
+   vertical-align: middle;
+}
+
+#approach_list {
+    margin-top: 50px;
+}
+
+.list-group-item {
+    font-size: 20px;
+    margin: auto 0;
+}
+
+#approach_name, #process_name {
+    color: #002060;
+}
+
+#process {
+    font-size: 20px;
+    margin: auto 0;
+    margin-top: 50px;
+}
