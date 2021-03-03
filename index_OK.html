@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <title>Elevate HR</title>
   <link rel="stylesheet" href="./style_OK.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
 </head>
 
 <body>
@@ -44,9 +45,9 @@
   <!-- Jumbotron -->
   <div class="jumbotron jumbotron-fluid" style="background:url(./img/jumbo.jpg) no-repeat; background-size: cover;">
    
-   <div class="bg-secondary text-white text-center my-5">
-     <h1 class="display-3">Administration made easy</h1>
-     <p>Adhoc is an all-demand service</p>
+   <div class="text-white text-right my-5">
+     <h1 class="display-3" id="motto">Take your HR to the next level</h1>
+     
      
    </div>
    
@@ -57,10 +58,12 @@
     <!-- Quote Section -->
     <div class="row">
       <div class="col my-5">
-        <h2 class="text-left font-weight-light font-italic">"Thanks to Adhoc we now have beautiful and faithful service every
-          day. Our customers are happy and engagement has drastically increased. Highly recommend!"
-        </h2>
-        <p class="text-right font-weight-bold font-italic">-Dave Ellavar, <span class="font-weight-light">Academy of Code</span></p>
+        <h2 class="text-left font-weight-light font-italic" id="quote">“Luxury is immaterial and relies upon a
+            custom-tailored, human relationship
+            along with expertise, and the local
+            culture and distinct heritage that a place
+            can offer.” 
+        <p class="text-right font-weight-medium font-italic" id="quote_name">~ Philippe Gombert <span class="font-weight-light"></span></p>
       </div>
     </div>
 
@@ -68,18 +71,81 @@
   </div>
     <hr>
 
-    <!-- Why Adhoc? Text -->
-    <div class="row">
-      <div class="col my-4">
-        <h2 class="display-4 text-center">Why Adhoc?</h2>
-      </div>
+  <!-- Our Approach Text -->
+  <div class="row">
+    <div class="col my-4">
+      <h2 class="display-5 text-center" id="approach_name">Our Approach</h2>
+    </div>
+  </div>
+  <!-- Our Approach container -->
+  <div class="container" id="approach_cont">
+    <div class="row justify-content-md-center">
+
+        <div class="col-sm-4">
+          <img src="img/approach_scheme.jpg" id="approach_img">
+        </div>
+
+        <div class="col-sm-8 align-text-middle">
+          <div class="centerBlock">
+
+          <ul class="list-group list-group-flush" id="approach_list">
+            <li class="list-group-item">We choose to use our partner knowledge to guide the transformation process of
+              any company culture</li>
+            <li class="list-group-item">Our processes aim to work with individual strengths while identifying and educating
+              in areas of individual weakness to achieve a valuable and confident team</li>
+            <li class="list-group-item">We formalise the Management Approach within each company and identify
+              potential blockers to enhance employee fulfillment, passion and growth</li>
+            
+          </ul>
+        </div>
+          
+        </div>
     </div>
 
-    <!-- Image Reasons Section -->
+  </div>
+
+    <!-- Text -->
+    <div class="row">
+      <div class="col my-4">
+        <h2 class="display-5 text-center" id="process_name">Our Process</h2>
+      </div>
+    </div>
+    <!-- Our proc container -->
+    <div class="container" id="process_cont">
+      <div class="row justify-content-md-center">
+  
+          
+  
+          <div class="col-sm-8 align-text-middle">
+            <div class="centerBlock">
+  
+            <p id="process"> Rather than reinvent or strive to “fix” something that is not broken, we choose to
+              partner with our clients in an effort to enable people and processes to move from
+              good to great.
+            </p>
+          </div>
+            
+          </div>
+
+
+          <div class="col-sm-4">
+            <img src="img/process_arrow.jpg" id="process_img">
+          </div>
+
+
+      </div>
+  
+    </div>
+
+  
+
+ 
+
+      <!-- Image Reasons Section
     <div class="row justify-content-around my-4">
       <div class="col-8 col-md-4 card border-white">
         <!-- First card goes here -->
-        <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/experienced.png" alt="card example image">
+        <!-- <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/experienced.png" alt="card example image">
         <div class="card-body">
           <p class="card-text text-secondary text-center">Over 9000 happy clients, and we learn</p>
         </div>
@@ -89,7 +155,7 @@
 
       <div class="col-8 col-md-4 card border-white">
         <!-- Second card goes here -->
-        <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/fun.png" alt="card example image">
+        <!-- <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/fun.png" alt="card example image">
         <div class="card-body">
           <p class="card-text text-secondary text-center">Over 9000 happy clients, and we learn</p>
         </div>
@@ -98,16 +164,16 @@
 
       <div class="col-8 col-md-4 card border-white">
         <!-- Third card goes here -->
-        <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/smart.png">
+        <!-- <img class="card-img-top" src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/smart.png">
         <div class="card-body">
           <p class="card-text text-secondary text-center">Over 9000 happy clients, and we learn</p>
         </div>
 
       </div>
-    </div>
+    </div> --> 
 
     <!-- Meet the Team Section -->
-    <div class="row bg-dark rounded-top">
+    <div class="row">
       <div class="col rounded-top">
         <h2 class="display-4 text-center text-white">Meet the Team</h2>
       </div>
@@ -115,21 +181,21 @@
 
     <!-- Team Pictures Carousel -->
     <div class="row">
-      <div class="col bg-dark">
+      <div class="col">
         <!-- Carousel Component -->
         <div id="carouselExampleControls" class="carousel slide w-50 align-center mx-auto" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/brian.png" class="d-block w-100" alt="CEO">
+              <img src="img/7.jpg" class="d-block w-100" alt="CEO">
             </div>
             <div class="carousel-item">
-              <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/andy.png" class="d-block w-100" alt="CFO">
+              <img src="img/9.jpg" class="d-block w-100" alt="CFO">
             </div>
             <div class="carousel-item">
-              <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/angela.png" class="d-block w-100" alt="COO">
+              <img src="img/11.jpg" class="d-block w-100" alt="COO">
             </div>
             <div class="carousel-item">
-              <img src="https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/amie.png" class="d-block w-100" alt="CTO">
+              <img src="img/15.jpg" class="d-block w-100" alt="CTO">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -143,11 +209,11 @@
         </div>
       </div>
     </div>
-    
+      
   </div>
-
+ 
   <!-- Footer -->
-  <footer>2019 Adhoc &copy;</footer>
+  <footer>2021 &copy;</footer>
 
   <!-- Bootstrap's JavaScript Files -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
