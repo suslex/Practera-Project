@@ -1,9 +1,11 @@
+
+
 .navbar {
     background-color: #262262;
 }
 
 #logo {
-    max-height: 100px;
+    max-height: 70px;
     margin-right: 45px;
 }
 
@@ -12,15 +14,21 @@
     margin-right:50px;
 }
 
+
+
 .jumbotron {
+    
+    
+    margin-top: 70px;
     padding-top: 200px;
     padding-right: 20px;
     max-height:400px;
     }
 
 #motto {
+   
     font-style:italic;
-    font-weight:350;
+    font-weight:300;
     text-shadow: 3px 3px 10px #262262 ;
 }
 
@@ -32,6 +40,11 @@
 #quote_name {
     font-size: 18px;
     margin-top: 10px;    
+}
+
+p {
+    
+    font-size: 20px;
 }
 
 #approach_cont {
@@ -68,3 +81,25 @@
     margin: auto 0;
     margin-top: 50px;
 }
+.carousel {
+    margin-bottom: 100px;
+}
+
+footer {
+    height: 200px;
+    background-color:#262262;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer_text {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#copyright {
+    font-size: 15px;
+}
+
