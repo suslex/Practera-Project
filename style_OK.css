@@ -1,4 +1,6 @@
-
+body {
+    background-color: #d1d9e1;
+}
 
 .navbar {
     background-color: #262262;
@@ -72,16 +74,17 @@ p {
     margin: auto 0;
 }
 
-#approach_name, #process_name {
+#about, #approach, #process, #clients {
     color: #002060;
 }
 
-#process {
+#process_text {
     font-size: 20px;
     margin: auto 0;
     margin-top: 50px;
 }
 .carousel {
+    margin-top:50px;
     margin-bottom: 100px;
 }
 
@@ -103,3 +106,27 @@ footer {
     font-size: 15px;
 }
 
+approach_img1 {
+    max-width: 100%;
+}
+
+#grad_img {background-image:
+    linear-gradient(to right, transparent, 80%, white),
+    url('img/17.jpg');
+    border:0;
+    
+    background-size: cover;
+    color: white;
+    height:400px;
+
+    margin-right: -15px;
+}
+
+.test_text {
+    margin-left: -15px;
+}
+
+.text-secondary {
+    color:#002060;
+    
+}
