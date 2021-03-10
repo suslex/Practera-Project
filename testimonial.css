@@ -67,7 +67,7 @@
   .blockquote__text::before {
       content: "\2014\0020";
   }
-  .container {
+  .justify-content-center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@
     margin-bottom: 50px;
   }
   
-  .card {
+  #card__testimonial {
     margin: 100px auto 0;
     align-items: center;
     margin-left: 5%;

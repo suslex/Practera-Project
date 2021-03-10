@@ -9,8 +9,9 @@
   <title>Elevate HR</title>
   <link rel="stylesheet" href="./style_OK.css">
   <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
-  <link href="TrainingApproach.css" rel="stylesheet">
-
+  <link href="trainingApproach.css" rel="stylesheet">
+  <!-- JQuery -->
+ 
 
 </head>
 
@@ -28,8 +29,13 @@
         <li class="nav-item">
           <a class="nav-link text-white" href="#about">About Us</a>
         </li>
+
         <li class="nav-item">
           <a class="nav-link text-white" href="#approach">Our Approach</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#training">Training</a>
         </li>
 
          <li class="nav-item">
@@ -37,7 +43,7 @@
         </li>
 
          <li class="nav-item">
-          <a class="nav-link text-white" href="#clients">Testimonials</a>
+          <a class="nav-link text-white" href="#testimonials">Testimonials</a>
         </li>
         
         <li class="nav-item" >
@@ -183,35 +189,29 @@
 
 
 <div>
-  <!-- <p class="h1 text-left mx-5 px-5 mt-4 mb-0">Training Focus Areas:</p1></div> -->
+  <p class="h1 text-left mx-5 px-5 mt-4 mb-0" id="training"">Training Focus Areas:</p1></div>
     <div class="container my-5" id="tiles_container">
         <ul>
-            <li> <div class="bottom"><p class="text align-text-middle">Meet & Greet Procedure with Guests</p></div> </li>
-            <li> <div class="bottom"><p class="text align-text-middle">Body Language during Service</p> </li>
-            <li> <div class="bottom"><p class="text">Presenting <br> and Clearing Skills</p></div> </li>
-            <li> <div class="bottom"><p class="text align-middle"><br>Wine Service</div></p> </li>
-            <li> <div class="bottom"><p class="text">Listening Skills & <br>Taking Orders</p></div> </li>
-            <li> <div class="bottom"><p class="text">Preparing Guest <br> Areas</p></div> </li>
-            <li> <div class="bottom"><p class="text">Communicating <br> Product <br> Knowledge</p></div> </li>
-            <li> <div class="bottom"><p class="text">Guest Room <br> Preparation</p></div> </li>
-            <li> <div class="bottom"><p class="text">Guest <br> Communication <br> Scenarios</p></div> </li>
-            <li> <div class="bottom"><p class="text">Housekeeping <br> Best Practices</div></p> </li>
-            <li> <div class="bottom"><p class="text">Attention to <br> Detail <br> throughout Service</p></div> </li>
-            <li> <div class="bottom"><p class="text">Developing <br> Relationships</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Meet & Greet Procedure with Guests</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Body Language during Service</p> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Presenting  and Clearing Skills</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Wine Service</div></p> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Listening Skills & Taking Orders</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Preparing Guest Areas</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Communicating Product Knowledge</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Guest Room Preparation</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Guest Communication Scenarios</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Housekeeping Best Practices</div></p> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Attention to Detail throughout Service</p></div> </li>
+            <li> <div class="bottom"><p class="training_text align-text-center">Developing Relationships</p></div> </li>
             
         </ul>
     </div>
 
-
-
-
-
-
-
    <!-- Our process Text -->
    <div class="row">
     <div class="col my-4">
-      <p class="h1 text-left mx-5 px-5 mt-4 mb-0" id="approach">Our Process</p>
+      <p class="h1 text-left mx-5 px-5 mt-4 mb-0" id="process">Our Process</p>
     </div>
   </div>
 
@@ -259,20 +259,86 @@
 
   </div>
 
+  <!-- Testimonials using cards(flip) -->
+ <div><p class="h1 text-left mx-5 px-5 mt-4 mb-0" id="testimonials">Testimonials</p></div>
+ <div class="container justify-content-center">
+     <div class="card" id="card__testimonial">
+         <div class="card__inner">
+             <div class="card__face card__face--front">
+                <img src="images/EllermanHouse.png" alt="" class="pp" />
+             </div>
+             <div class="card__face card__face--back">
+                 <div class="card__content">
+                     <div class="card__header">
+                      </div>
+                     <div class="card__body">
+                         <p class="text"> "The attention to detail, personal reporting and valid input is the best service I have 
+                             EVER received from a training provider! Your insight, valued input, and genuine care you show towards the EH Staff and 
+                             Training goes far beyond any expectation I had! I am so grateful to be partnered with such a fantastic team! Thank you & Keep up the great work!"
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+
+     <div class="card" id="card__testimonial">
+         <div class="card__inner">
+             <div class="card__face card__face--front">
+                 <img src="images/FranschhoekCellar.png" alt="" class="pp" />
+             </div>
+             <div class="card__face card__face--back">
+                 <div class="card__content">
+                     <div class="card__header">
+                     </div>
+                     <div class="card__body">
+                         <p class="text">"I am also so impressed with the growth in this team...it was well put together and each and every staff member 
+                             could relate to the principles. You were a great presenter. I am sitting in the tasting room watching the wine advisors currently – three different groups with 
+                             three different wine advisors and each of them seem to have captivated their audiences! Lots of smiles around. So grateful that we have you on board, you have made a huge impact on this team!"
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ 
+     <div class="card" id="card__testimonial">
+         <div class="card__inner">
+             <div class="card__face card__face--front">
+                 <img src="images/GreatPlains.png" alt="" class="pp" />
+             </div>
+             <div class="card__face card__face--back">
+                 <div class="card__content">
+                     <div class="card__header">
+                     </div>
+                     <div class="card__body">
+                        <p class="text">"I just wanted to write to tell you how impressed we were with the training Paul led while here at Great 
+                             Plains - Ol Donyo. From the outset, Paul covered exactly what we needed and it really sunk in with the staff. 
+                             Paul has a very personal and approachable teaching technique and really bonded well with the guys, 
+                             Thank you very much for this dynamic training intervention and we hope to organise more training in the 
+                             future. "
+                         </p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+</div>
+
 
     <!-- Testimonials Section -->
-    <div class="row">
+    <!-- <div class="row">
       <div class="col my-4">
         <h2 class="display-5 text-center" id="clients">Testimonials</h2>
       </div>
-    </div>
+    </div> -->
 
      <!-- Testimonials Carousel -->
      <!-- Testimonials Carousel -->
-     <div class="row">
-      <div class="col">
+     <!-- <div class="row">
+      <div class="col"> -->
         <!-- Carousel Component -->
-        <div id="carouselExampleControls" class="carousel slide w-50 align-center mx-auto" data-ride="carousel">
+        <!-- <div id="carouselExampleControls" class="carousel slide w-50 align-center mx-auto" data-ride="carousel">
           <div class="carousel-inner">
 
             <div class="carousel-item active">
@@ -332,9 +398,15 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
 
-  <hr>
+  <!-- <hr> -->
+
+
+
+
+
+
 
     <!-- Team Pictures Carousel -->
     <div class="row">
@@ -407,6 +479,34 @@
        $('html, body').animate({
         scrollTop: $(divId).offset().top - 700}, 100);
     });
+
+        //  script for card flip
+    const card = document.querySelectorAll(".card__inner");
+    function flipCard() {
+    this.classList.toggle('is-flipped');
+    }
+    card.forEach((card) => card.addEventListener("click", flipCard));
+    
+      
+    // // script for card hover effects
+    // $(document).ready(function(){
+    //             $('.card').hover(
+    //                 //trigger when mouse hover
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "-1%",
+    //                     },200);  
+                        
+    //                 },
+    //                 //trigger when mouse out
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "0%"
+    //                     },200);
+    //                 }
+    //             );
+    //         });
+   
   </script>
 
 
