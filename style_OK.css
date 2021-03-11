@@ -1,6 +1,8 @@
+html {
+  scroll-padding-top: 100px;
+}
 body {
     background-color: #d1d9e1;
-    
 }
 
 .navbar {
@@ -22,7 +24,6 @@ body {
     margin-right: 0px;
     
 }
-
 
 .jumbotron {
     
@@ -59,14 +60,9 @@ p {
     font-size: 50px;
 }
 
-
-
 #about_cont, #approach_cont, #proc_cont {
     padding:0px;
 }
-
-
-
 
 #approach_img, #process_img {
     max-height: 400px;
@@ -91,7 +87,6 @@ p {
 
 #about, #approach, #process, #clients, #training, #testimonials {
     color: #002060;
-    padding-top: 120px;
 }
 
 #process_text {
@@ -104,7 +99,7 @@ p {
     margin-bottom: 100px;
 }
 
-footer {
+footer:not(.footer__client) {
     height: 150px;
     background-color:#262262;
     color: white;
@@ -190,8 +185,6 @@ approach_img1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
     margin-bottom: 50px;
   }
   
@@ -200,8 +193,9 @@ approach_img1 {
     align-items: center;
     margin-left: 5%;
     margin-right: auto; 
-    width: 425px;
-    height: 550px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 425px;
     perspective: 1000px;
     background-color: #d1d9e1;
     border:none;
@@ -232,7 +226,7 @@ approach_img1 {
   }
   
   .card__face--front {
-    background-image: linear-gradient(to bottom right, #002060,  #002060);
+    background-image: linear-gradient(to bottom right, #262262, #4b4892);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -262,7 +256,7 @@ approach_img1 {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom left,  #262262  10%, #262262 115%); 
+    background-image: linear-gradient(to bottom left,  #262262  10%, #4b4892 115%); 
     z-index: -1;
     border-radius: 0px 0px 50% 0px;
   }
@@ -273,7 +267,8 @@ approach_img1 {
     height: 128px;
     margin: 0 auto 30px;
     border-radius: 50%;
-    border: 5px solid #FFF;
+    opacity: 0.6;
+    border: 5px solid #4b4892;
     object-fit: cover;
    
   }
@@ -289,6 +284,22 @@ approach_img1 {
     font-size: 18px;
     line-height: 1.4;
   }
-
+  /*style for the testimonial text*/
+  .footer__client {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1em;
+    color:#262262;
+  }
+ .footer__client::before {
+    content: "\2014\0020";
+ }
+  @media screen and (max-width: 1250px) {
+    .container .justify-content-center {
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+    
   
-

@@ -4,9 +4,7 @@
     margin: auto;
     overflow: hidden;
     margin-top: 20px;
-   
-}
-
+  }
 .container ul {
     padding: 0px;
     margin: 0px;
@@ -40,7 +38,7 @@
     font-size: 20px;
     display: table;
     
-}
+ }
 
 /*style for training tiles*/
 .training_text {
@@ -49,16 +47,6 @@
     margin: 35px 5px 35px 20px;
  
 }
-/* .text {
-    
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:normal;
-    font-size: large;
-    margin: auto;
-    padding:auto;
-    float:center;
-    
-} */
 
 @media screen and (max-width:1250px) {
     .container ul li{

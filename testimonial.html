@@ -124,26 +124,26 @@
     function flipCard() {
     this.classList.toggle('is-flipped');
     }
-    card.forEach((card) => card.addEventListener("click", flipCard));
+    card.forEach((card) => card.addEventListener("mouseover", flipCard));
 
     // script for card hover effects
-    $(document).ready(function(){
-                $('.card').hover(
-                    //trigger when mouse hover
-                    function(){
-                        $(this).animate({
-                            marginTop: "-1%",
-                        },200);  
+    // $(document).ready(function(){
+    //             $('.card').hover(
+    //                 //trigger when mouse hover
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "-1%",
+    //                     },200);  
                         
-                    },
-                    //trigger when mouse out
-                    function(){
-                        $(this).animate({
-                            marginTop: "0%"
-                        },200);
-                    }
-                );
-            });
+    //                 },
+    //                 //trigger when mouse out
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "0%"
+    //                     },200);
+    //                 }
+    //             );
+    //         });
    
    </script>
 </body>
