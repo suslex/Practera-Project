@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate-HR</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <section id="header">
+      <div class="container">
+         <img src="images/Elevate HR Logo.png" class="logo">
+          
+         <div class="header-text">
+            <h1>Take Your Human Resources to the Next Level</h1>
+        </div>
+     </div>  
+    </section>    
+    <nav id="sideNav" >
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Downloads</a></li>
+            <li><a href="#">Contact</a></li>    
+        </ul>
+   </nav>  
+   <img src="images/menu bar wht.JPG" id="menuBtn">
 
+   <!--overview/approach/process-->
+   <section id="overview">
+       <div class="overview-left-col">
+          <h2>Overview</h2> 
+          <img src="images/overview.jpg"> 
+       </div>
+       <div class="approach-right-col">
+          <h2>Approach</h2> 
+          <img src="images/approach.JPG"> 
+       </div>
+       <div class="process">
+         <h2>Process</h2>  
+         <img src="images/process.JPG"> 
+      </div>
+   </section>
+
+
+
+
+   <script>
+       var menuBtn = document.getElementById("menuBtn");
+       var sideNav = document.getElementById("sideNav");
+       sideNav.style.right = "-250px";
+
+       menuBtn.onclick = function() {
+          if(sideNav.style.right == "-250px") {
+              sideNav.style.right = "0";
+          } else {
+            sideNav.style.right = "-250px";
+          }
+       }
+   </script>
+</body>
+</html>

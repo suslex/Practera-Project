@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Testimonials</title>
+	<link rel="stylesheet" href="testimonial.css" />
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <h2>Testimonials</h2>
+     <!-- Testimonials using cards(flip) -->
+    <div class="container justify-content-center">
+        <div class="card" id="card__testimonial">
+            <div class="card__inner">
+                <div class="card__face card__face--front">
+                   <img src="images/EllermanHouse.png" alt="" class="pp" />
+                </div>
+                <div class="card__face card__face--back">
+                    <div class="card__content">
+                        <div class="card__header">
+                         </div>
+                        <div class="card__body">
+                            
+                            <p class="text"> "The attention to detail, personal reporting and valid input is the best service I have 
+                                EVER received from a training provider! Your insight, valued input, and genuine care you show towards the EH Staff and 
+                                Training goes far beyond any expectation I had! I am so grateful to be partnered with such a fantastic team! Thank you & Keep up the great work!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" id="card__testimonial">
+            <div class="card__inner">
+                <div class="card__face card__face--front">
+                    <img src="images/FranschhoekCellar.png" alt="" class="pp" />
+                </div>
+                <div class="card__face card__face--back">
+                    <div class="card__content">
+                        <div class="card__header">
+                        </div>
+                        <div class="card__body">
+                            
+                            <p class="text">"I am also so impressed with the growth in this team...it was well put together and each and every staff member 
+                                could relate to the principles. You were a great presenter. I am sitting in the tasting room watching the wine advisors currently – three different groups with 
+                                three different wine advisors and each of them seem to have captivated their audiences! Lots of smiles around. So grateful that we have you on board, you have made a huge impact on this team!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card" id="card__testimonial">
+            <div class="card__inner">
+                <div class="card__face card__face--front">
+                    <img src="images/GreatPlains.png" alt="" class="pp" />
+                </div>
+                <div class="card__face card__face--back">
+                    <div class="card__content">
+                        <div class="card__header">
+                        </div>
+                        <div class="card__body">
+                            
+                            <p class="text">"I just wanted to write to tell you how impressed we were with the training Paul led while here at Great 
+                                Plains - Ol Donyo. From the outset, Paul covered exactly what we needed and it really sunk in with the staff. 
+                                Paul has a very personal and approachable teaching technique and really bonded well with the guys, 
+                                Thank you very much for this dynamic training intervention and we hope to organise more training in the 
+                                future. "
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- testimonials using Blockquotes -->
+     
+<div class="cont">
+    <div class="row">
+        <blockquote class="blockquote blockquote--bordered blockquote--quoted">
+        <img src="images/EllermanHouse.png" alt="" class="pp" /> 
+          <p class="text">"The attention to detail, personal reporting and valid input is the best service I have 
+            EVER received from a training provider! Your insight, valued input, and genuine care you show towards the EH Staff and 
+            Training goes far beyond any expectation I had! I am so grateful to be partnered with such a fantastic team!"
+            </p>
+          <footer class="blockquote__text">Ellerman House</footer>
+        </blockquote>
+     </div>
+    <div class="row">
+        
+       <blockquote class="blockquote blockquote-reverse blockquote--quoted">
+        <img src="images/FranschhoekCellar.png" alt="" class="pp" /> 
+         <p class="text">"I am also so impressed with the growth in this team...it was well put together and each and every staff member 
+            could relate to the principles. You were a great presenter. I am sitting in the tasting room watching the wine advisors currently – three different groups with 
+            three different wine advisors and each of them seem to have captivated their audiences! Lots of smiles around. So grateful that we have you on board, you have made a huge impact on this team!"
+           </p>
+         <footer class="blockquote__text">Franschhoek Cellar</footer>
+       </blockquote>
+    </div>
+    <div class="row">
+       
+        <blockquote class="blockquote blockquote--bordered blockquote--quoted">
+          <img src="images/GreatPlains.png" alt="" class="pp" />
+          <p class="text">"I just wanted to write to tell you how impressed we were with the training Paul led while here at Great 
+            Plains - Ol Donyo. From the outset, Paul covered exactly what we needed and it really sunk in with the staff. 
+            Paul has a very personal and approachable teaching technique and really bonded well with the guys, 
+            Thank you very much for this dynamic training intervention and we hope to organise more training in the 
+            future. "
+            </p>
+          <footer class="blockquote__text">Great Plains</footer>
+        </blockquote>
+     </div>
+  </div>
+
+
+ <script >
+    //  script for card flip
+    const card = document.querySelectorAll(".card__inner");
+    function flipCard() {
+    this.classList.toggle('is-flipped');
+    }
+    card.forEach((card) => card.addEventListener("mouseover", flipCard));
+
+    // script for card hover effects
+    // $(document).ready(function(){
+    //             $('.card').hover(
+    //                 //trigger when mouse hover
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "-1%",
+    //                     },200);  
+                        
+    //                 },
+    //                 //trigger when mouse out
+    //                 function(){
+    //                     $(this).animate({
+    //                         marginTop: "0%"
+    //                     },200);
+    //                 }
+    //             );
+    //         });
+   
+   </script>
+</body>
+</html>
