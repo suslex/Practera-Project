@@ -48,10 +48,18 @@
  
 }
 
-@media screen and (max-width:1250px) {
+@media screen and (max-width: 480px) {
+
+    #tiles_container {
+        width: 90%;
+        margin: 0px;
+    }
+
+
+
     .container ul li{
-        width:40%;
-        margin-left: 40px;
+        width:90%;
+        margin-left: 0px;
          
  }
 }

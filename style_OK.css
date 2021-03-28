@@ -58,7 +58,7 @@ p {
 }
 
 #about_cont, #approach_cont, #proc_cont {
-    padding:0px;
+  padding:0px;
 }
 
 #approach_img, #process_img {
@@ -158,7 +158,7 @@ approach_img1 {
     background-color: #262262;
 }
 
-.card-text {
+.h2 .card-text {
     line-height: 45px;
 }
 
@@ -284,4 +284,20 @@ approach_img1 {
     }
   }
     
-    
+  @media screen and (max-width: 480px) {
+
+    #motto {
+      font-size: 3rem;
+    }
+
+    .h1 {
+      font-size: 2rem;
+    }
+
+    .h2 {
+      font-size: 1.5rem;
+    }
+
+    .card-text {
+      line-height: 2rem;
+  }
